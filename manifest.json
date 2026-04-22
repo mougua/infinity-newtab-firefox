@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "InfinityTab New Tab",
+  "version": "1.0.0",
+  "description": "Open https://inftab.com/ in new tab",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "infinitytab-newtab@mylab",
+      "strict_min_version": "58.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": [],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
